@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 #Create the example using this script
 if [[ $# -eq 0 ]] ; then
 	echo 'One argument must be given of the form \"name.fst.txt\" or \"name.fsa.txt\"';
